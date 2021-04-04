@@ -4,6 +4,12 @@
 #include "global.h"
 
 
+
+
+PageManager pageManager;
+
+
+
 bool CALLBACK IsD3D9DeviceAcceptable( D3DCAPS9* pCaps, D3DFORMAT AdapterFormat, D3DFORMAT BackBufferFormat,
                                       bool bWindowed, void* pUserContext )
 {
@@ -23,10 +29,16 @@ bool CALLBACK ModifyDeviceSettings( DXUTDeviceSettings* pDeviceSettings, void* p
     return true;
 }
 
-
+// main
 HRESULT CALLBACK OnD3D9CreateDevice( IDirect3DDevice9* pd3dDevice, const D3DSURFACE_DESC* pBackBufferSurfaceDesc,
                                      void* pUserContext )
 {
+
+
+
+    pageManager.CreateTitlePage();
+
+
     return S_OK;
 }
 
@@ -37,12 +49,13 @@ HRESULT CALLBACK OnD3D9ResetDevice( IDirect3DDevice9* pd3dDevice, const D3DSURFA
     return S_OK;
 }
 
-
+// update
 void CALLBACK OnFrameMove( double fTime, float fElapsedTime, void* pUserContext )
 {
+    pageManager.Update();
 }
 
-
+// render
 void CALLBACK OnD3D9FrameRender( IDirect3DDevice9* pd3dDevice, double fTime, float fElapsedTime, void* pUserContext )
 {
     HRESULT hr;
@@ -53,6 +66,7 @@ void CALLBACK OnD3D9FrameRender( IDirect3DDevice9* pd3dDevice, double fTime, flo
     // Render the scene
     if( SUCCEEDED( pd3dDevice->BeginScene() ) )
     {
+        pageManager.Render();
         V( pd3dDevice->EndScene() );
     }
 }
@@ -69,9 +83,10 @@ void CALLBACK OnD3D9LostDevice( void* pUserContext )
 {
 }
 
-
+// exit
 void CALLBACK OnD3D9DestroyDevice( void* pUserContext )
 {
+    pageManager.DeleteCurrentPage();
 }
 
 
@@ -99,8 +114,8 @@ INT WINAPI wWinMain( HINSTANCE, HINSTANCE, LPWSTR, int )
     DXUTInit( true, true ); // Parse the command line and show msgboxes
     DXUTSetHotkeyHandling( true, true, true );  // handle the default hotkeys
     DXUTSetCursorSettings( true, true ); // Show the cursor and clip it when in full screen
-    DXUTCreateWindow( L"EmptyProject" );
-    DXUTCreateDevice( false, WINDOW_WIDTH, WINDOW_HEIGHT );
+    DXUTCreateWindow( L"ToxExt" );
+    DXUTCreateDevice( true, WINDOW_WIDTH, WINDOW_HEIGHT );
 
     // Start the render loop
     DXUTMainLoop();

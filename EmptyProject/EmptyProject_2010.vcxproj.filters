@@ -12,6 +12,24 @@
       <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
       <Extensions>fx;fxh;hlsl</Extensions>
     </Filter>
+    <Filter Include="소스파일">
+      <UniqueIdentifier>{19caa06a-1c92-45f7-bedd-38bba717658c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더파일">
+      <UniqueIdentifier>{47ef14ca-617c-45bc-b2bf-4e9659764a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더파일\page">
+      <UniqueIdentifier>{b5ff87f0-c8d5-405d-a3b3-0b7dfdb24efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더파일\manager">
+      <UniqueIdentifier>{0e295ae2-f6c0-4238-8bed-fc34b712591c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스파일\page">
+      <UniqueIdentifier>{5109183e-ff18-4d05-95c7-78f9d638dd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스파일\manager">
+      <UniqueIdentifier>{59d03db3-44d6-4a86-90d3-cfad37e1470e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\DXUT\Optional\directx.ico">
@@ -73,19 +91,64 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EmptyProject.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="global.h" />
-  </ItemGroup>
-  <ItemGroup>
     <CLInclude Include="resource.h">
       <Filter>Resource Files</Filter>
     </CLInclude>
     <ResourceCompile Include="EmptyProject.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+    <ClInclude Include="global.h">
+      <Filter>헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="first_game_page.h">
+      <Filter>헤더파일\page</Filter>
+    </ClInclude>
+    <ClInclude Include="intro_page.h">
+      <Filter>헤더파일\page</Filter>
+    </ClInclude>
+    <ClInclude Include="manual_page.h">
+      <Filter>헤더파일\page</Filter>
+    </ClInclude>
+    <ClInclude Include="page.h">
+      <Filter>헤더파일\page</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking_page.h">
+      <Filter>헤더파일\page</Filter>
+    </ClInclude>
+    <ClInclude Include="second_game_page.h">
+      <Filter>헤더파일\page</Filter>
+    </ClInclude>
+    <ClInclude Include="title_page.h">
+      <Filter>헤더파일\page</Filter>
+    </ClInclude>
+    <ClInclude Include="page_manager.h">
+      <Filter>헤더파일\manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EmptyProject.cpp">
+      <Filter>소스파일</Filter>
+    </ClCompile>
+    <ClCompile Include="first_game_page.cpp">
+      <Filter>소스파일\page</Filter>
+    </ClCompile>
+    <ClCompile Include="title_page.cpp">
+      <Filter>소스파일\page</Filter>
+    </ClCompile>
+    <ClCompile Include="intro_page.cpp">
+      <Filter>소스파일\page</Filter>
+    </ClCompile>
+    <ClCompile Include="manual_page.cpp">
+      <Filter>소스파일\page</Filter>
+    </ClCompile>
+    <ClCompile Include="second_game_page.cpp">
+      <Filter>소스파일\page</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking_page.cpp">
+      <Filter>소스파일\page</Filter>
+    </ClCompile>
+    <ClCompile Include="page_manager.cpp">
+      <Filter>소스파일\manager</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

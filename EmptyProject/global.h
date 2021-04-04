@@ -1,4 +1,5 @@
 #pragma once
+#include "page_manager.h"
 
 
 #define WINDOW_WIDTH 1280
@@ -6,3 +7,11 @@
 
 #define FLOOR_WIDTH 1024
 #define FLOOR_HEIGHT 720
+
+
+
+
+
+
+
+extern PageManager pageManager;
