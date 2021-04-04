@@ -1,7 +1,26 @@
-﻿  title_page.cpp
+﻿  first_game_page.cpp
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(22,43): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(22,57): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(23,29): warning C4244: '+=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(25,27): warning C4458: 'speed' 선언은 클래스 멤버를 숨깁니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(11,6): message : 'Player::speed' 선언을 참조하십시오.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(199,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(200,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(250,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(251,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(302,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(303,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(353,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(354,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  page_manager.cpp
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(22,43): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(22,57): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(23,29): warning C4244: '+=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(25,27): warning C4458: 'speed' 선언은 클래스 멤버를 숨깁니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(11,6): message : 'Player::speed' 선언을 참조하십시오.
   코드를 생성하고 있습니다.
-  9 of 1020 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    11 functions had inline decision re-evaluated but remain unchanged
+  3 of 1140 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
   EmptyProject_2010.vcxproj -> D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\Release\EmptyProject.exe

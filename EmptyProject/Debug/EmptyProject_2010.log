@@ -1,2 +1,15 @@
 ﻿  first_game_page.cpp
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(22,43): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(22,57): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(23,29): warning C4244: '+=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(25,27): warning C4458: 'speed' 선언은 클래스 멤버를 숨깁니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\player.h(11,6): message : 'Player::speed' 선언을 참조하십시오.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(199,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(200,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(249,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(250,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(300,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(301,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(350,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\first_game_page.cpp(351,14): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   EmptyProject_2010.vcxproj -> D:\2021\2021년도 게임기능대회\Project\DirectXGamePractice_210404\EmptyProject\Debug\EmptyProject.exe

@@ -388,12 +388,14 @@
     <ClCompile Include="intro_page.cpp" />
     <ClCompile Include="manual_page.cpp" />
     <ClCompile Include="page_manager.cpp" />
+    <ClCompile Include="player.cpp" />
     <ClCompile Include="second_game_page.cpp" />
     <ClCompile Include="title_page.cpp" />
     <ClCompile Include="ranking_page.cpp" />
     <ClInclude Include="intro_page.h" />
     <ClInclude Include="manual_page.h" />
     <ClInclude Include="page_manager.h" />
+    <ClInclude Include="player.h" />
     <ClInclude Include="ranking_page.h" />
     <ClInclude Include="second_game_page.h" />
     <ClInclude Include="title_page.h" />
